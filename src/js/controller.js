@@ -93,6 +93,10 @@ const controlRecipe = async function(newRecipe) {
   }
 }
 
+const testFunction = function() {
+  console.log('Test');
+}
+
 const init = function() {
   bookmarksView.addHandlerRender(controlBookmarks)
   recipeView.addHandlerRender(showRecipe)
@@ -101,5 +105,6 @@ const init = function() {
   searchView.addHandlerSearch(controlSearchResults)
   paginationView.addHandlerClick(controlPagination)
   addRecipeView._addHandlerUpload(controlRecipe)
+  testFunction()
 }
 init();
