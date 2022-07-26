@@ -1,0 +1,28 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "recipe browser",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rhyzero/forkify.git"
+  },
+  "author": "Jacky Chen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rhyzero/forkify/issues"
+  },
+  "homepage": "https://github.com/rhyzero/forkify#readme",
+  "dependencies": {
+    "core-js": "^3.23.4",
+    "fractional": "^1.0.0",
+    "parcel": "^2.6.0",
+    "regenerator-runtime": "^0.13.9"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.0"
+  }
+}
